@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Галерея с макетами изображений</title>
+    <style type="text/css">
+      .layout > div {
+        /* border: 5px solid lightgray; */
+        /* background-color: yellowgreen; */
+        padding: 0 15px 0 0;
+        width: 160px;
+        height: 100px;
+        overflow: hidden;
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      class="container"
+      style="
+        margin: 1% auto;
+        width: 90%;
+        height: 650px;
+        background-color: aquamarine;
+        border: 1px solid lightgray;
+        border-radius: 10px;
+        display: flex;
+        flex-wrap: wrap;
+      "
+    >
+      <div style="width: 100%; display: flex; justify-content: center">
+        <div
+          style="display: flex; width: 95%; margin: 1% auto; overflow: hidden"
+        >
+          <img
+            id="mainImage"
+            style="
+              height: 500px;
+              /* max-height: 30%; */
+              /* max-width: 10%;  */
+              margin: 0 auto;
+            "
+            src=""
+          />
+        </div>
+      </div>
+      <div
+        class="layout"
+        ;
+        id="layout"
+        style="
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: 1% 1% 2% 1%;
+        "
+      >
+        <div>
+          <button style="width: 160px; height: 100px" onclick="show1()">
+            <img
+              id="image1"
+              style="
+                width: 340%;
+                margin: 0 auto;
+                position: relative;
+                left: -110%;
+                top: -100%;
+              "
+              src="https://astanatimes.com/wp-content/uploads/2021/02/Screen-Shot-2021-02-05-at-18.33.40.png"
+            />
+          </button>
+        </div>
+        <div>
+          <button
+            style="
+              width: 150px;
+              height: 100px;
+            
+              position: relative;
+              left: 0%;
+              top: 0%;
+            "
+            onclick="show2()"
+          >
+            <img style="width: 120%;
+            /* margin: 0 auto; */
+            position: relative;
+            left: -0%;
+            top: -0%;"
+              id="image2"
+              style="width: 140%; margin: 0 auto"
+              src="https://tirshilik-tynysy.kz/uploads/posts/2020-08/1596345826_116582076_760073938129023_2525631994193565881_o.jpg"
+            />
+          </button>
+        </div>
+        <div>
+          <button onclick="show3()">
+            <img
+              id="image3"
+              style="
+                width: 270px;
+                margin: 0 auto;
+                position: relative;
+                left: -30%;
+              "
+              src="https://as1.ftcdn.net/v2/jpg/04/69/94/84/1000_F_469948444_WDtLnB1xOUNNYetszAmPz9od3A1ftjJx.jpg"
+            />
+          </button>
+        </div>
+        <div>
+          <button onclick="show4()">
+            <img
+              id="image4"
+              style="width: 150px; margin: 0 auto"
+              src="https://ruh.kz/wp-content/uploads/2021/11/1-3388.jpg"
+            />
+          </button>
+        </div>
+        <div>
+          <button onclick="show5()">
+            <img
+              id="image5"
+              style="width: 150px; margin: 0 auto"
+              src="https://rybalkashop.by/images/detailed/12/regnum_picture_1496915755269996_normal.jpg"
+            />
+          </button>
+        </div>
+        <div>
+          <button onclick="show6()">
+            <img
+              id="image6"
+              style="width: 150px; margin: 0 auto"
+              src="https://osken-onir.kz/uploads/posts/2019-01/1546686147_0234d86e3d0d041b46de094deb619699.jpg"
+            />
+          </button>
+        </div>
+        <div>
+          <button onclick="show7()">
+            <img
+              id="image7"
+              style="width: 150px; margin: 0 auto"
+              src="https://baq.kz/userfiles/images/8d61a49f-cf87-44df-aa2a-c208584b08a8.jpg"
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript">
+      let imageList = [
+        "https://astanatimes.com/wp-content/uploads/2021/02/Screen-Shot-2021-02-05-at-18.33.40.png",
+        "https://tirshilik-tynysy.kz/uploads/posts/2020-08/1596345826_116582076_760073938129023_2525631994193565881_o.jpg",
+        "https://as1.ftcdn.net/v2/jpg/04/69/94/84/1000_F_469948444_WDtLnB1xOUNNYetszAmPz9od3A1ftjJx.jpg",
+        "https://ruh.kz/wp-content/uploads/2021/11/1-3388.jpg",
+        "https://rybalkashop.by/images/detailed/12/regnum_picture_1496915755269996_normal.jpg",
+        "https://osken-onir.kz/uploads/posts/2019-01/1546686147_0234d86e3d0d041b46de094deb619699.jpg",
+        "https://baq.kz/userfiles/images/8d61a49f-cf87-44df-aa2a-c208584b08a8.jpg",
+      ];
+      function show1() {
+        mainImage.src = image1.src;
+      }
+      function show2() {
+        mainImage.src = image2.src;
+      }
+      function show3() {
+        mainImage.src = image3.src;
+      }
+      function show4() {
+        mainImage.src = image4.src;
+      }
+      function show5() {
+        mainImage.src = image5.src;
+      }
+      function show6() {
+        mainImage.src = image6.src;
+      }
+      function show7() {
+        mainImage.src = image7.src;
+      }
+    </script>
+  </body>
+</html>

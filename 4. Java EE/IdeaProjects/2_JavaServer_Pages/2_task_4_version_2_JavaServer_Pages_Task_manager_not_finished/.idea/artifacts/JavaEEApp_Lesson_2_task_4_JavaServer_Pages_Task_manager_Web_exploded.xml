@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="JavaEEApp_Lesson_2_task_4_JavaServer_Pages_Task_manager:Web exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/JavaEEApp_Lesson_2_task_4_JavaServer_Pages_Task_manager_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="JavaEEApp_Lesson_2_task_4_JavaServer_Pages_Task_manager/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="JavaEEApp_Lesson_2_task_4_JavaServer_Pages_Task_manager" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

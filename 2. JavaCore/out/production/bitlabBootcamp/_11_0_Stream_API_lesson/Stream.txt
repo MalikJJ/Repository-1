@@ -1,0 +1,28 @@
+filter, count, reduce, map, mapflat, foreach, sorted
+
+
+1) Create ArrayList<Integer>
+   Add some numbers to arraylist 
+   Count how many numbers that are divisible by 3 using Stream methods
+   Show number of count
+
+2) Create ArrayList<String>
+   Add some strings to arraylist
+   Filter stream with condition(s.length() > 3 && s.startsWith("A"))
+   Sort stream and show result
+
+
+3) Create class Person with fields: String name, String surname, int age
+   Create ArrayList of Person objects.
+   Add some objects to arraylist
+   a) Create stream and map to getName(). Sort them and show results
+   b) Create stream and map to getAge(). Filter with condition(age >= 18). Show results of integers
+   
+
+4) Continue with Person class
+   a) Create stream and flatMap to getName and getAge. Show results to the screen   
+
+
+5) Continue with Person class
+   Create map and add to that map using stream name as key and age as value. Show results of map using Map.Entry
+   

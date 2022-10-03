@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class _3_1_encapsulation.Main {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        int kPriceOfTheFirstBanana = in.nextInt();
+        int nInitialAmounOfMoney = in.nextInt();
+        int wQuantityToBy = in.nextInt();
+        int i = 1;
+        int iPriceOfEachIBanana = i * kPriceOfTheFirstBanana;
+        int PriceForAllWBananas = 0;
+        while (i <= wQuantityToBy) {
+            PriceForAllWBananas = PriceForAllWBananas + iPriceOfEachIBanana;
+            if (nInitialAmounOfMoney >= PriceForAllWBananas) System.out.print(0);
+            if (nInitialAmounOfMoney < PriceForAllWBananas) System.out.print(PriceForAllWBananas - nInitialAmounOfMoney);
+            i ++;
+        }
+    }
+}

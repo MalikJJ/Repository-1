@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      while (true) {
+        chooseExercise();
+      }
+
+      function exercise1() {
+        let run = true;
+        while (run) {
+          let x = prompt(
+            "Exercise 1 \n\nEnter some number x, we will calculate the equation y = x^2 + 2x - 1 \n\n\t Press Cancel to return to the main page \n"
+          );
+          if (Boolean(x) && isNaN(x) != true) {
+            alert(
+              "Exercise 1 \n\nWe calculated the equation y = x^2 + 2x - 1 \nwith your input, where x = " +
+                x +
+                "\n\ny = " +
+                (x * x + 2 * x - 1)
+            );
+          } else if (Boolean(x)) {
+            x = alert(
+              "We need some number x, please enter a number instead of " +
+                '"' +
+                x +
+                '"'
+            );
+          } else {
+            run = false;
+            alert("Redirecting to the main page");
+          }
+        }
+      }
+
+      function exercise2() {
+        let a = prompt("Enter the numerator");
+        let b = prompt("Enter the denominator (a divisor)");
+        if (a % b == 0) alert("Divisible");
+        else alert("Not divisible");
+      }
+
+      function exercise3() {
+        let a = prompt("Name:");
+        let b = prompt("Surname:");
+        let c = prompt("City:");
+        let d = prompt("Age:");
+        alert(
+          "Name: " + a + "\nSurname: " + b + "\nCity: " + c + "\nAge: " + d
+        );
+      }
+
+      function exercise4() {
+        let a = parseInt(prompt("a ="));
+        let b = parseInt(prompt("b ="));
+        let c = parseInt(prompt("c ="));
+        alert(
+          "a + b + c = " +
+            (a + b + c) +
+            "\na - b - c = " +
+            (a - b - c) +
+            "\na * b * c = " +
+            a * b * c
+        );
+      }
+
+      function exercise5() {
+        let nPupils = prompt("Number of pupils:");
+        let kApples = prompt("Number of apples:");
+        if (parseInt(kApples / nPupils) == 1)
+          alert("Each student will receive one apple");
+        else
+          alert(
+            "Each student will receive " +
+              parseInt(kApples / nPupils) +
+              " apples"
+          );
+      }
+
+      function exercise6() {
+        let sideAofARightTriangle = prompt("Side A of a right triangle:");
+        let sideBofARightTriangle = prompt("Side B of a right triangle:");
+        alert(
+          "Hypotenuse = " +
+            Math.sqrt(
+              Math.pow(sideAofARightTriangle, 2) +
+                Math.pow(sideBofARightTriangle, 2)
+            ).toFixed(2)
+        );
+      }
+
+      function exercise7() {
+        let averageSpeed = prompt("Average speed: (km/h)");
+        let distance = prompt("Distance to Aktobe: (km)");
+        let currentTimeHours = 15.75;
+        let eventTimeHours = 18.0;
+        if (
+          (eventTimeHours - currentTimeHours) / (distance / averageSpeed) >=
+          1
+        )
+          alert(
+            "YES, YOU CAN REACH (You will reach in " +
+              distance / averageSpeed +
+              " hours)"
+          );
+        else
+          alert(
+            "NO, YOU CAN NOT REACH (You will reach in " +
+              distance / averageSpeed +
+              " hours"
+          );
+      }
+
+      function exercise8() {
+        let priceOfTheProduct = 120;
+        let quantityToBuy = prompt("Goods to buy: quantity");
+        if (priceOfTheProduct * quantityToBuy > 4000) {
+          let cashback = (priceOfTheProduct * quantityToBuy) / 10;
+          alert(priceOfTheProduct * quantityToBuy - cashback + " KZT");
+        } else alert(priceOfTheProduct * quantityToBuy + " KZT");
+      }
+
+      function exercise9() {
+        let currency = prompt("INSERT YOUR AMOUNT IN KZT:");
+        let exchangeCurrency = prompt(
+          "1- CONVERT TO USD\n\n2- CONVERT TO EUR\n\n3- CONVERT TO GBP"
+        );
+        if (exchangeCurrency == 1)
+          alert(currency + " KZT = " + (currency / 380).toFixed(2) + " USD");
+        else if (exchangeCurrency == 2)
+          alert(currency + " KZT = " + (currency / 430.0).toFixed(2) + " EUR");
+        else if (exchangeCurrency == 3)
+          alert(currency + " KZT = " + (currency / 480.0).toFixed(2) + " GBP");
+      }
+
+      function exercise10() {
+        let login = prompt("Login:");
+        let password = prompt("Password:");
+        if (login == "login" && password == "password")
+          alert("Authentication completed");
+        else alert("Invalid login or password");
+      }
+
+      function exercise11() {
+        let leapYear = prompt("Enter year:");
+        if (
+          (leapYear % 4 == 0 && leapYear % 100 != 0) ||
+          (leapYear % 400 == 0 &&
+            leapYear % 1 == 0 &&
+            leapYear > 0 &&
+            leapYear <= 30000)
+        )
+          alert("YES");
+        else alert("NO");
+      }
+
+      function exercise12() {
+        let pointsForTheSemester = prompt(
+          "Enter your points for the semester:"
+        );
+        if (pointsForTheSemester >= 90) alert("A");
+        else if (pointsForTheSemester >= 75) alert("B");
+        else if (pointsForTheSemester >= 60) alert("C");
+        else if (pointsForTheSemester >= 50) alert("D");
+        else alert("F");
+      }
+
+      function exercise13() {
+        let branch = prompt(
+          "Choose your branch:" +
+            "\n\n\t " +
+            "1 - Science" +
+            "\n\t " +
+            "2 - Humanitarian subjects" +
+            "\n\t " +
+            "3 = Art" +
+            "\n\t " +
+            "4 - Sport"
+        );
+        if (branch == 1) {
+          let subject = prompt("1 - Math" + "\n\n" + "2 - Physics");
+          if (subject == 1) alert("You are Financer");
+          if (subject == 2) alert("You are Engineer");
+        }
+        if (branch == 2) {
+          let subject = prompt(
+            "1 - History" + "\n\n" + "2 - Foreing languages"
+          );
+          if (subject == 1) alert("You are Historic or Diplomat");
+          if (subject == 2) alert("You are Translator");
+        }
+        if (branch == 3) {
+          let subject = prompt("1 - Drawing" + "\n\n" + "2 - Singing");
+          if (subject == 1) alert("You are Painter or Architect");
+          if (subject == 2) alert("You are Singer or Tamada");
+        }
+        if (branch == 4) {
+          let subject = prompt("1 - Team" + "\n\n" + "2 - Individual");
+          if (subject == 1) alert("You are footballer or Basketball player");
+          if (subject == 2) alert("You are boxer or tennis player");
+        }
+      }
+
+      function exercise14() {
+        let a = prompt("Enter the length of side A of a triangle");
+        let b = prompt("Enter the length of side B of a triangle");
+        let c = prompt("Enter the length of side C of a triangle");
+        if (a + b > c && a + c > b && b + c > a) alert("YES");
+        else alert("NO");
+      }
+
+      function exercise15() {
+        let moneyInTengeCurrency = prompt(
+          "Enter the amount of money that you need to exchange from tenge to dollar:"
+        );
+        let moneyInUSDCurrency = moneyInTengeCurrency / 380;
+        if (Number.isInteger(moneyInUSDCurrency))
+          alert("ONLY " + moneyInUSDCurrency + " USD");
+        else
+          alert(
+            parseInt(moneyInUSDCurrency) +
+              " USD and " +
+              (((moneyInTengeCurrency % 380) / 380) * 100).toFixed() +
+              " cents"
+          );
+      }
+
+      function exercise16() {
+        let minutes = prompt("Enter time in minutes:");
+        let hours = minutes / 60;
+        if (Number.isInteger(hours)) alert("Only " + hours + " hours");
+        else
+          alert(parseInt(hours) + " hours and " + (minutes % 60) + " minutes");
+      }
+
+      function chooseExercise() {
+        // let run = true;
+        // while (run) {
+        let exerciseList = [
+          exercise1,
+          exercise2,
+          exercise3,
+          exercise4,
+          exercise5,
+          exercise6,
+          exercise7,
+          exercise8,
+          exercise9,
+          exercise10,
+          exercise11,
+          exercise12,
+          exercise13,
+          exercise14,
+          exercise15,
+          exercise16,
+        ];
+
+        let exerciseNumber = prompt(
+          "Hello! \n\nPlease enter the exercise number from 1 to 16 that you would like to review. \n\n\t Press Cancel to end the program \n"
+        );
+        if (Boolean(exerciseNumber) == false) {
+          // run = false;
+          alert("Good bye!");
+        } else if (exerciseNumber < 1 || exerciseNumber > 16) {
+          return alert("Sorry, please enter an exercise number from 1 to 16");
+        } else if (isNaN(exerciseNumber) == true) {
+          return alert(
+            "Sorry, please enter a number of the required exercise instead of " +
+              '"' +
+              exerciseNumber +
+              '"'
+          );
+        }
+        //  else {
+        //   let exerciseNumberFunctionAutocomplete = eval(
+        //     "exercise" + exerciseNumber + "()"
+        //   );
+        // }
+        return exerciseList[exerciseNumber - 1]();
+        // }
+      }
+    </script>
+  </body>
+</html>

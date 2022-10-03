@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="lib19">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/JavaEEApp_Lesson_2_JavaServer_Pages_classwork/out/artifacts/JavaEEApp_Web_exploded/WEB-INF/lib/javax.servlet-api-4.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/JavaEEApp_Lesson_2_JavaServer_Pages_classwork/out/artifacts/JavaEEApp_Web_exploded/WEB-INF/lib/javax.servlet.jsp-api-2.3.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

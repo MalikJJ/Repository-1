@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/IdeaProjects.iml" filepath="$PROJECT_DIR$/.idea/IdeaProjects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaEEApp/JavaEEApp.iml" filepath="$PROJECT_DIR$/JavaEEApp/JavaEEApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaEEApp_Lesson_1_classwork/JavaEEApp_Lesson_1_classwork.iml" filepath="$PROJECT_DIR$/JavaEEApp_Lesson_1_classwork/JavaEEApp_Lesson_1_classwork.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaEEApp_Lesson_1_task_1_(Hello_Bitlab_10_times_h1)/JavaEEApp_Lesson_1_task_1_(Hello_Bitlab_10_times_h1).iml" filepath="$PROJECT_DIR$/JavaEEApp_Lesson_1_task_1_(Hello_Bitlab_10_times_h1)/JavaEEApp_Lesson_1_task_1_(Hello_Bitlab_10_times_h1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaEEApp_Lesson_1_task_2_(Generate table with users from ArrayList)/JavaEEApp_Lesson_1_task_2_(Generate table with users from ArrayList).iml" filepath="$PROJECT_DIR$/JavaEEApp_Lesson_1_task_2_(Generate table with users from ArrayList)/JavaEEApp_Lesson_1_task_2_(Generate table with users from ArrayList).iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaEEApp_Lesson_1_task_3_(Заполнение формы Имя фамилия)/JavaEEApp_Lesson_1_task_3_(Заполнение формы Имя фамилия).iml" filepath="$PROJECT_DIR$/JavaEEApp_Lesson_1_task_3_(Заполнение формы Имя фамилия)/JavaEEApp_Lesson_1_task_3_(Заполнение формы Имя фамилия).iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaEEApp_Lesson_1_task_4_(Заполнение формы Имя фамилия food)/JavaEEApp_Lesson_1_task_4_(Заполнение формы Имя фамилия food).iml" filepath="$PROJECT_DIR$/JavaEEApp_Lesson_1_task_4_(Заполнение формы Имя фамилия food)/JavaEEApp_Lesson_1_task_4_(Заполнение формы Имя фамилия food).iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaEEApp_Lesson_1_task_5_(Заполнение формы Ful name, age, gender)/JavaEEApp_Lesson_1_task_5_(Заполнение формы Ful name, age, gender).iml" filepath="$PROJECT_DIR$/JavaEEApp_Lesson_1_task_5_(Заполнение формы Ful name, age, gender)/JavaEEApp_Lesson_1_task_5_(Заполнение формы Ful name, age, gender).iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaEEApp_Lesson_1_task_6_(Заполнение формы Ful name, exam points)/JavaEEApp_Lesson_1_task_6_(Заполнение формы Ful name, exam points).iml" filepath="$PROJECT_DIR$/JavaEEApp_Lesson_1_task_6_(Заполнение формы Ful name, exam points)/JavaEEApp_Lesson_1_task_6_(Заполнение формы Ful name, exam points).iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaEEApp_Lesson_1_task_7_(Заполнение формы football players)/JavaEEApp_Lesson_1_task_7_(Заполнение формы football players).iml" filepath="$PROJECT_DIR$/JavaEEApp_Lesson_1_task_7_(Заполнение формы football players)/JavaEEApp_Lesson_1_task_7_(Заполнение формы football players).iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaEEApp_Lesson_2_JavaServer_Pages_classwork/JavaEEApp_Lesson_2_JavaServer_Pages_classwork.iml" filepath="$PROJECT_DIR$/JavaEEApp_Lesson_2_JavaServer_Pages_classwork/JavaEEApp_Lesson_2_JavaServer_Pages_classwork.iml" />
+    </modules>
+  </component>
+</project>

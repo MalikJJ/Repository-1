@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Local storage</title>
+  </head>
+  <body>
+    Name:
+    <br />
+    <input type="text" name="" id="nameInput" />
+    <br />
+    Surname:
+    <br />
+    <input type="text" name="" id="surnameInput" />
+    <br />
+    Phone:
+    <br />
+    <input type="text" name="" id="phoneInput" />
+    <br />
+    <br />
+    <button onclick="save()">Save to local storage</button>
+    <h1 id="nameHeader"></h1>
+    <script type="text/javascript">
+      let usersArray = [];
+
+      let elements = document.body.children;
+
+      let usersFromStorage = localStorage.getItem("users");
+      let parsedUsersFromStorage = JSON.parse(usersFromStorage);
+      
+      console.log(elements);
+      console.log(usersFromStorage);
+      console.log(parsedUsersFromStorage);
+
+      for (let i = 0; i<parsedUsersFromStorage.length; i++) {
+        console.log(parsedUsersFromStorage[i].name);
+        console.log(parsedUsersFromStorage[i].surname);
+        console.log(parsedUsersFromStorage[i].phone);
+      }
+      usersArray = parsedUsersFromStorage;
+
+      function save() {
+        let name = nameInput.value;
+        let surname = surnameInput.value;
+        let phone = phoneInput.value;
+
+        let user = { name: name, surname: surname, phone: phone };
+
+        // localStorage.setItem("user1",user);
+
+        // console.log(user);
+
+        usersArray.push(user);
+
+        stringifiedUsersArray = JSON.stringify(usersArray);
+
+        localStorage.setItem("users", stringifiedUsersArray);
+        console.log()
+
+
+      }
+    </script>
+  </body>
+</html>

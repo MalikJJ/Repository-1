@@ -1,0 +1,470 @@
+<html>
+  <head>
+    <title>Facebook</title>
+    <style type="text/css">
+      .container {
+        width: 95%;
+        margin: 1% auto;
+        border: 1px solid lightgray;
+        border-radius: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .header {
+        width: 95%;
+        margin: 7px auto;
+        display: flex;
+        justify-content: space-between;
+        background-color: midnightblue;
+        font-size: small;
+      }
+      .header > div {
+        padding: 1% 2%;
+      }
+      .header a {
+        text-decoration: none;
+        color: white;
+      }
+      .bodyContainer {
+        display: flex;
+        width: 95%;
+        margin: 0% auto;
+      }
+      .firstColumn {
+        width: 25%;
+        padding: 1% 1% 1% 0%;
+      }
+      .firstColumn > div:first-child {
+        border-radius: 5px 5px 0 0;
+        padding: 0;
+      }
+      .firstColumn > div {
+        border: 1px solid lightgray;
+        padding: 3% 5%;
+      }
+      .firstColumn > div:last-child {
+        border-radius: 0 0 5px 5px;
+      }
+      .firstColumn > div > a {
+        font-size: small;
+        text-decoration: none;
+        color: black;
+      }
+      .firstColumn img {
+        border-radius: 4px 4px 0 0;
+        width: 100%;
+      }
+      .firstColumn > div > div {
+        display: flex;
+      }
+      .firstColumn > div > div:last-child {
+        padding: 0 5% 7% 5%;
+      }
+      .firstColumn > div > div > a {
+        font-size: small;
+        text-align: center;
+      }
+      .firstColumn > div > div > div:first-child {
+        padding: 5% 1% 5% 5%;
+      }
+      .firstColumn > div > div > div:last-child {
+        padding: 5% 2%;
+      }
+      .firstColumn > div > div > div:last-child > a {
+        font-size: smaller;
+        text-decoration: none;
+        color: skyblue;
+      }
+      .firstColumn a:first-child {
+        font-size: smaller;
+        color: black;
+      }
+      .secondColumn {
+        padding: 1%;
+        width: 50%;
+      }
+
+      .secondColumn > div {
+        display: flex;
+        padding: 2%;
+        margin: 2% 2% 1% 1%;
+        min-height: 80px;
+      }
+      .secondColumn > div > div {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 1% 1% 1% 110px;
+        width: 100%;
+        justify-content: space-between;
+      }
+      .secondColumn > div > div:first-child {
+        width: 70px;
+        height: 70px;
+        position: absolute;
+        overflow: hidden;
+        border-radius: 50%;
+        padding: 1%;
+        margin: 0 0 3% 0;
+      }
+      .secondColumn > div > div > div:first-child {
+        width: 80%;
+      }
+      .secondColumn > div > div > div:nth-child(2) {
+        width: 10%;
+        padding-right: 5%;
+      }
+      .secondColumn > div > div > div:nth-child(3) {
+        width: 100%;
+        padding: 3% 0 5% 0;
+      }
+      .secondColumn > div > div > div:nth-child(4) {
+        width: 100%;
+      }
+
+      .linkButtonGrey {
+        font-size: small;
+        text-decoration: none;
+        color: white;
+        background-color: gray;
+        padding: 1% 2%;
+        border-radius: 5px;
+      }
+      .linkButtonRed {
+        font-size: small;
+        text-decoration: none;
+        color: white;
+        /* background-color: orangered; */
+        background-color: red;
+        padding: 5% 10%;
+        border-radius: 5px;
+      }
+
+      .articleHeader {
+        font-size: smaller;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+      }
+      .articleText {
+        font-size: smaller;
+      }
+      .secondColumn img {
+        border-radius: 3px;
+        width: 100%;
+      }
+      .linkButton {
+        font-size: small;
+        text-decoration: none;
+        color: white;
+        background-color: midnightblue;
+        padding: 1% 2%;
+        border-radius: 5px;
+      }
+      .thirdColumn {
+        width: 25%;
+        padding: 1% 0% 1% 1%;
+        position: relative;
+      }
+      .thirdColumn > div {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        border: 1px solid lightgray;
+        border-radius: 0;
+        padding: 2%;
+      }
+      .thirdColumn > div:last-child {
+        display: flex;
+        border-radius: 0 0 5px 5px;
+      }
+      .thirdColumn > div > div:first-child {
+        width: 75%;
+        padding: 1%;
+      }
+      .thirdColumn > div > div:nth-child(2) {
+        width: 20%;
+        display: flex;
+        justify-content: flex-end;
+        padding: 1%;
+        font-size: smaller;
+      }
+      .thirdColumn > div > div:nth-child(3) {
+        width: 100%;
+        padding: 1%;
+        font-size: smaller;
+      }
+      .thirdColumn > div > div:nth-child(4) {
+        width: 100%;
+        padding: 2% 1% 1%;
+        color: slategray;
+        font-size: smaller;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div>
+          <a href=""><b>Facebook</b></a>
+        </div>
+        <div>
+          <a href="">Logout</a>
+        </div>
+      </div>
+      <div class="bodyContainer">
+        <div class="firstColumn">
+          <div>
+            <div>
+              <a
+                href="https://media.istockphoto.com/photos/thisis-what-its-all-about-picture-id1155613377?k=20&m=1155613377&s=612x612&w=0&h=OP7Juu4h8aHulb9pml8AqjYYaCihnbDieSc0Uo7wjbU="
+                target="_blank"
+              >
+                <img
+                  src="https://media.istockphoto.com/photos/thisis-what-its-all-about-picture-id1155613377?k=20&m=1155613377&s=612x612&w=0&h=OP7Juu4h8aHulb9pml8AqjYYaCihnbDieSc0Uo7wjbU="
+              /></a>
+            </div>
+            <div>
+              <div>
+                <a><b>Malik Jaqypbekuly</b></a>
+              </div>
+              <div>
+                <a href=""><b>edit</b></a>
+              </div>
+            </div>
+            <div>
+              <a
+                >— “No matter how good you are, someone is always going to be
+                against you. But never let them be the limit of your
+                success.”</a
+              >
+            </div>
+          </div>
+          <div>
+            <a href="">My Profile</a>
+          </div>
+          <div>
+            <a href="">My Messages</a>
+          </div>
+          <div>
+            <a href="">My Videos</a>
+          </div>
+          <div>
+            <a href="">My Photos</a>
+          </div>
+          <div>
+            <a href="">My Groups</a>
+          </div>
+          <div>
+            <a href="">My Games</a>
+          </div>
+        </div>
+        <div class="secondColumn">
+          <div>
+            <div>
+              <a href=""
+                ><img
+                  style="width: 180%; position: relative; left: -35%; top: -15%"
+                  src="https://bitlab.kz/images/team/aybek_team_final.png"
+              /></a>
+            </div>
+            <div>
+              <div>
+                <a class="articleHeader" href="">Aybek Bagit</a>
+              </div>
+              <div>
+                <a class="linkButtonRed" href="">Remove</a>
+              </div>
+              <div>
+                <a class="articleText">32 years. Almaty, Kazakhstan</a>
+              </div>
+              <div>
+                <a class="linkButtonGrey" href="">Send Message</a>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div>
+              <a href=""
+                ><img
+                  style="width: 170%; position: relative; left: -45%; top: -17%"
+                  src="https://the-steppe.com/pictures/files/Aidana/Aid2/IMG_5983.jpg"
+              /></a>
+            </div>
+            <div>
+              <div>
+                <a class="articleHeader" href="">Aruzhan Yelemes</a>
+              </div>
+              <div>
+                <a class="linkButtonRed" href="">Remove</a>
+              </div>
+              <div>
+                <a class="articleText">21 years. London, United Kingdom</a>
+              </div>
+              <div>
+                <a class="linkButtonGrey" href="">Send Message</a>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div>
+              <a href=""
+                ><img
+                  style="width: 350%; position: relative; left: -37%; top: -20%"
+                  src="https://cdn.britannica.com/54/187354-050-BE0530AF/Mark-Zuckerberg.jpg"
+              /></a>
+            </div>
+            <div>
+              <div>
+                <a class="articleHeader" href="">Mark Zukerberg</a>
+              </div>
+              <div>
+                <a class="linkButtonRed" href="">Remove</a>
+              </div>
+              <div>
+                <a class="articleText"
+                  >37 years. Los Angeles, California, USA</a
+                >
+              </div>
+              <div>
+                <a class="linkButtonGrey" href="">Send Message</a>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div>
+              <a href=""
+                ><img
+                  style="width: 300%; position: relative; left: -100%; top: -11%"
+                  src="https://eca.unwomen.org/sites/default/files/Field%20Office%20ECA/Images/News/2021/4/Dilnaz.jpg"
+              /></a>
+            </div>
+            <div>
+              <div>
+                <a class="articleHeader" href="">Anel Mukhamedjanova</a>
+              </div>
+              <div>
+                <a class="linkButtonRed" href="">Remove</a>
+              </div>
+              <div>
+                <a class="articleText">23 years. Almaty, Kazakhstan</a>
+              </div>
+              <div>
+                <a class="linkButtonGrey" href="">Send Message</a>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div>
+              <a href=""
+                ><img
+                  style="width: 185%; position: relative; left: -45%; top: -16%;"
+                  src="https://narxoz.edu.kz/ste/images/tild3766-3035-4333-b938-613438353636____.png"
+              /></a>
+            </div>
+            <div>
+              <div>
+                <a class="articleHeader" href="">Eldar Khassen</a>
+              </div>
+              <div>
+                <a class="linkButtonRed" href="">Remove</a>
+              </div>
+              <div>
+                <a class="articleText">22 years. Taldykorgan, Kazakhstan</a>
+              </div>
+              <div>
+                <a class="linkButtonGrey" href="">Send Message</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="thirdColumn">
+          <div>
+            <div>
+              <a class="articleHeader" href="">Locatelli moves to Juventus</a>
+            </div>
+            <div>
+              <a>12:55</a>
+            </div>
+            <div>
+              <a>Transfer cost - 40M euro</a>
+            </div>
+            <div>
+              <a>La Gazetta de la Sport</a>
+            </div>
+          </div>
+          <div>
+            <div>
+              <a class="articleHeader" href="">PSG signed Wijnaldum</a>
+            </div>
+            <div>
+              <a>11:22</a>
+            </div>
+            <div>
+              <a>Georginio Wijnaldum goes to Paris</a>
+            </div>
+            <div>
+              <a>L'equipe</a>
+            </div>
+          </div>
+          <div>
+            <div>
+              <a class="articleHeader" href="">Conor McGregor retires</a>
+            </div>
+            <div>
+              <a>11:12</a>
+            </div>
+            <div>
+              <a>McGregor can not fight anymore</a>
+            </div>
+            <div>
+              <a>The Sun</a>
+            </div>
+          </div>
+          <div>
+            <div>
+              <a class="articleHeader" href="">Bitcoin raises up</a>
+            </div>
+            <div>
+              <a>10:49</a>
+            </div>
+            <div>
+              <a>Bitcoin market cap raises up</a>
+            </div>
+            <div>
+              <a>The Times</a>
+            </div>
+          </div>
+          <div>
+            <div>
+              <a class="articleHeader" href=""
+                >Coca Cola lost 4 billion dollars</a
+              >
+            </div>
+            <div>
+              <a>09:58</a>
+            </div>
+            <div>
+              <a>After Ronaldo's act, Coca Cola lost 4B</a>
+            </div>
+            <div>
+              <a>New York Times</a>
+            </div>
+          </div>
+          <div>
+            <div>
+              <a class="articleHeader" href="">BITLAB ACADEMY transform</a>
+            </div>
+            <div>
+              <a>09:42</a>
+            </div>
+            <div>
+              <a>BITLAB transforms to university</a>
+            </div>
+            <div>
+              <a>Tengrinews</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

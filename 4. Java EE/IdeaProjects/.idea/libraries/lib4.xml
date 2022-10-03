@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="lib4">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/JavaEEApp_Lesson_1_task_6_(Заполнение формы Ful name, exam points)/Web/WEB-INF/lib/javax.servlet-api-4.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/JavaEEApp_Lesson_1_task_6_(Заполнение формы Ful name, exam points)/Web/WEB-INF/lib/javax.servlet.jsp-api-2.3.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

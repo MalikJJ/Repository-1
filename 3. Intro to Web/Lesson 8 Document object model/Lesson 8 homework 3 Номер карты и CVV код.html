@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Номер карты и CVV код</title>
+  </head>
+  <body>
+    <div
+      style="
+        margin: 30px 45px;
+        background-color: cadetblue;
+        border: 1px solid lightgray;
+        border-radius: 15px;
+        padding: 15px;
+        width: 500px;
+      "
+    >
+      <div
+        style="
+          display: flex;
+          padding: 15px 0;
+          /* background-color: lightgoldenrodyellow; */
+        "
+      >
+        <div style="width: 30%">
+          <a>CARD:</a>
+        </div>
+        <div style="display: flex; width: 70%">
+          <div style="width: 70px">
+            <input id="cardNumberInput1" style="width: 50px" type="text" />
+          </div>
+          <div style="width: 70px">
+            <input id="cardNumberInput2" style="width: 50px" type="text" />
+          </div>
+          <div style="width: 70px">
+            <input id="cardNumberInput3" style="width: 50px" type="text" />
+          </div>
+          <div style="width: 70px">
+            <input id="cardNumberInput4" style="width: 50px" type="text" />
+          </div>
+        </div>
+      </div>
+      <div
+        style="
+          display: flex;
+          padding: 15px 0;
+          /* background-color: lightcoral; */
+        "
+      >
+        <div style="width: 30%">
+          <a>NAME LASTNAME:</a>
+        </div>
+        <div style="width: 70%">
+          <input id="nameLastName" style="width: 75%" type="text" />
+        </div>
+      </div>
+      <div
+        style="
+          display: flex;
+          padding: 15px 0;
+          /* background-color: lightgreen; */
+        "
+      >
+        <div style="width: 30%">CVV:</div>
+        <div style="width: 70%">
+          <input id="cvv" style="width: 15%" type="password" />
+        </div>
+      </div>
+      <div style="padding: 15px 0">
+        <input type="button" onclick="complete()" value="COMPLETE" />
+      </div>
+    </div>
+    <script type="text/javascript">
+      let cardList = [
+        {
+          cardNumber: 1234123412341234,
+          cardHolder: "Ilyas Zhuanyshev",
+          CVV: 123,
+        },
+        { cardNumber: 4321432143214321, cardHolder: "Aibek Bagit", CVV: 321 },
+        {
+          cardNumber: 1111222233334444,
+          cardHolder: "Kairat Kelimbetov",
+          CVV: 111,
+        },
+        {
+          cardNumber: 1010202030304040,
+          cardHolder: "Galymzhan Moldanazar",
+          CVV: 100,
+        },
+        {
+          cardNumber: 4040303020201010,
+          cardHolder: "Bitlab Bitlabson",
+          CVV: 404,
+        },
+      ];
+      function complete() {
+        let isCompleted = false;
+        let cardHolderName = "";
+        let cardInput =
+          cardNumberInput1.value +
+          cardNumberInput2.value +
+          cardNumberInput3.value +
+          cardNumberInput4.value;
+        // console.log(cardInput);
+        // console.log(nameLastName.value);
+        for (let u of cardList) {
+          if (
+            cardInput == u.cardNumber &&
+            nameLastName.value == u.cardHolder &&
+            cvv.value == u.CVV
+          ) {
+            isCompleted = true;
+            cardHolderName = u.cardHolder;
+          }
+        }
+        if (isCompleted) alert("Transaction completed. Welcome, " + cardHolderName);
+        else alert("Invalid data");
+      }
+    </script>
+  </body>
+</html>

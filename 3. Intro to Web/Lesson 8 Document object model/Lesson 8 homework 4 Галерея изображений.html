@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Галерея изображений</title>
+  </head>
+  <body>
+    <div
+      class="container"
+      style="
+        margin: 1% auto;
+        width: 70%;
+        background-color: aquamarine;
+        border: 1px solid lightgray;
+        border-radius: 10px;
+        display: flex;
+        flex-wrap: wrap;
+      "
+    >
+      <div style="width: 100%; display: flex; justify-content: center">
+        <div style="display: flex; width: 95%; margin: 1% auto">
+          <img id="image" style="height: 450px; margin: 0 auto" src="" />
+        </div>
+      </div>
+      <div style="width: 100%; display: flex; justify-content: center; padding: 1% 0 2%;">
+        <div>
+          <button onclick="back()">< BACK</button>
+        </div>
+        <div>
+          <button onclick="next()">NEXT ></button>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript">
+      let imageList = [
+        "https://images.pexels.com/photos/2356071/pexels-photo-2356071.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://wallpaperaccess.com/full/3896296.jpg",
+        "https://wallpaperaccess.com/full/3896074.jpg",
+        "https://wallpaperaccess.com/full/3896104.jpg",
+        "https://s1.1zoom.ru/big0/479/Turkey_Stones_508755.jpg",
+      ];
+      let i = 0;
+      image.src = imageList[i];
+      function back() {
+        if (i == 0) {
+          i = imageList.length;
+        }
+        i--;
+        image.src = imageList[i];
+        // console.log(i);
+      }
+      function next() {
+        if ((i == imageList.length - 1)) {
+          i = -1;
+        }
+        i++;
+        image.src = imageList[i];
+        // console.log(i);
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,57 @@
+import java.util.Scanner;
+public class _3_1_encapsulation.Main {
+    public static void main(String[] args) {
+        Player[] goldenStateTeamPlayers = new Player[5];
+        Player goldenStatePlayer1 = new Player(30, "Stephen", "Curry", "point guard");
+        Player goldenStatePlayer2 = new Player(23, "Draymond", "Green", "power forward");
+        Player goldenStatePlayer3 = new Player(11, "Klay", "Thompson", "shooting guard");
+        Player goldenStatePlayer4 = new Player(3, "Jordan", "Poole", "shooting guard");
+        Player goldenStatePlayer5 = new Player(22, "Andrew", "Wiggins", "small forward");
+
+        Player[] lakersTeamPlayers = new Player[5];
+        Player lakersPlayer1 = new Player(6, "", "", "");
+        Player lakersPlayer2 = new Player(0, "", "", "");
+        Player lakersPlayer3 = new Player(3, "", "", "");
+        Player lakersPlayer4 = new Player(12, "", "", "");
+        Player lakersPlayer5 = new Player(13, "", "", "");
+
+    }
+}
+class Player {
+    int number;
+    String name;
+    String surname;
+    String position;
+
+    public Player(int number, String name, String surname, String position) {
+        this.number = number;
+        this.name = name;
+        this.surname = surname;
+        this.position = position;
+    }
+
+    public Player() {
+    }
+    public String playerParametersToString() {
+        return number + " " + name + " " + surname + " " + position;
+    }
+}
+
+class Club {
+    String name;
+    String country;
+    int ratingPoints;
+    Player[] players;
+
+    public Club(String name, String country, int ratingPoints, Player[] players) {
+        this.name = name;
+        this.country = country;
+        this.ratingPoints = ratingPoints;
+        this.players = players;
+    }
+    public Club() {
+    }
+    void printClubData() {
+        System.out.println(name + " " + country + " " + ratingPoints " " + players;
+    }
+}

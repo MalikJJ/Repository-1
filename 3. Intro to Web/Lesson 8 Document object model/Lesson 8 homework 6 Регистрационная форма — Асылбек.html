@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Task8-6</title>
+    <style type="text/css">
+      #body {
+        background-color: #d0d6d5;
+      }
+      .error {
+        height: 20px;
+        color: red;
+      }
+      form {
+        text-align: left;
+        margin-top: 50px;
+        margin: 50px;
+      }
+      #myform input {
+        width: 50%;
+      }
+      .all {
+        display: flex;
+        justify-content: center;
+      }
+      .form {
+        width: 50%;
+        margin: 150px;
+        background-color: white;
+        border: 5px solid #d0d6d5;
+        outline: 5px solid white;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body id="body">
+    <div class="all">
+      <div class="form">
+        <form id="myform">
+          Email:<br />
+          <input
+            oninput="checkEmail()"
+            type="text"
+            name="email"
+            id="emailInput"
+          />
+          <div id="emailError" class="error"></div>
+          Password:<br />
+          <input
+            oninput="checkPass()"
+            type="password"
+            name="password"
+            id="passInput"
+          />
+          <div id="passwordError" class="error"></div>
+          Retype Password:<br />
+          <input
+            oninput="checkRepass()"
+            type="password"
+            name="repassword"
+            id="repassInput"
+          />
+          <div id="repasswordError" class="error"></div>
+          <button type="button" onclick="checkUser()">REGISTER</button>
+        </form>
+      </div>
+    </div>
+    <script type="text/javascript">
+      let usersArray = [
+        { email: "Ilyas@bitlab.kz", password: "     ileke123", name: "Ilyas" },
+        { email: "Aibek@bitlab.kz", password: "aieke123", name: "Aibek" },
+        { email: "Eldar@bitlab.kz", password: "eleke123", name: "Eldar" },
+      ];
+
+      function checkEmail() {
+        console.log(emailInput.value.length)
+        if (emailInput.value.includes("@") || emailInput.value.length == 0) {
+          emailError.innerText = "";
+        } else emailError.innerText = "@ needs";
+        for (u of usersArray) {
+          if (emailInput.value == u.email) {
+            emailError.innerText = "current eMail is already in use";
+          }
+        }
+      }
+    </script>
+  </body>
+</html>

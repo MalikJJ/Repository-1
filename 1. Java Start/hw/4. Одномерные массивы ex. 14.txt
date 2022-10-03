@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class _3_1_encapsulation.Main {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        int n = in.nextInt();
+        int[] numsArray = new int[n];
+        for (int i = 0; i < n; i++) {
+            numsArray[i] = in.nextInt();
+        }
+        int m = in.nextInt();
+        int k = 0;
+        for (int i = 0; i < n; i++) {
+            if (m == numsArray[i]) {
+                System.out.println("YES");
+                System.out.println(i);
+            }
+            if (m != numsArray[i]) k = 1;
+        }
+        if (k == 1) System.out.println("NO");
+    }
+}

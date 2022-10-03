@@ -1,0 +1,33 @@
+import java.util.Scanner;
+public class _3_1_encapsulation.Main {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        int n = in.nextInt();
+        int min = Integer.MAX_VALUE;
+        int max = Integer.MIN_VALUE;
+        int minIndex = -1;
+        int maxIndex = -1;
+
+        int[] numsArray = new int[n];
+
+        for (int i = 0; i < n; i++) {
+            numsArray[i] = in.nextInt();
+        }
+        for (int i = 0; i < n; i++) {
+            if (numsArray[i] < min) {
+                min = numsArray[i];
+                minIndex = i;
+            }
+            if (numsArray[i] > max) {
+                max = numsArray[i];
+                maxIndex = i;
+            }
+        }
+        int temp = numsArray[minIndex];
+        numsArray[minIndex] = numsArray[maxIndex];
+        numsArray[maxIndex] = temp;
+        for (int i = 0; i < n; i++) {
+            System.out.print(numsArray[i] + " ");
+        }
+    }
+}

@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      while (true) {
+        chooseExercise();
+      }
+
+      function exercise1() {
+        let listLength = parseInt(
+          prompt("Enter quantity, how many numbers will be in the list:")
+        );
+        let list = [];
+        for (let i = 0; i < listLength; i++) {
+          list[i] = parseInt(
+            prompt(
+              "Enter a number to fill the list (" +
+                parseInt(i + 1) +
+                "/" +
+                parseInt(listLength) +
+                "):"
+            )
+          );
+        }
+        let mNumber = prompt(
+          "Enter a number, if it is present in the entered list, we will display the indexes of matches in the list"
+        );
+        // let matching = []
+        let matchString = "";
+        for (let i = 0; i < list.length; i++) {
+          if (mNumber == list[i]) {
+            matchString += i + " ";
+          }
+        }
+        if (matchString) alert("YES " + matchString);
+        else alert("NO");
+      }
+
+      function exercise2() {
+        let num = prompt(
+          "Enter some number to fill the list\n\n\tEnter 0 to end"
+        );
+        let list = [];
+        let i = 0;
+        while (num != 0) {
+          list[i] = num;
+          num = prompt(
+            "Enter some number to fill the list\n\n\tEnter 0 to end"
+          );
+          i++;
+        }
+
+        let multiplicationOfNumbers = 1;
+
+        for (let j = 0; j < list.length; j++) {
+          multiplicationOfNumbers *= list[j];
+        }
+        alert(Math.pow(multiplicationOfNumbers, 1 / list.length).toFixed(3));
+      }
+
+      function exercise3() {
+        let num = prompt(
+          "Enter some number to fill the list\n\n\tEnter 0 to end"
+        );
+        let list = [];
+        let i = 0;
+        while (num != 0) {
+          list[i] = num;
+          num = prompt(
+            "Enter some number to fill the list\n\n\tEnter 0 to end"
+          );
+          i++;
+        }
+        let positiveNumbers = "";
+        for (let i = 0; i < list.length; i++) {
+          if (list[i] > 0) positiveNumbers += list[i] + " ";
+        }
+        alert(positiveNumbers);
+      }
+
+      function exercise4() {
+        let listLength = prompt(
+          "Enter quantity, how many numbers will be in the list:"
+        );
+        let list = [];
+        for (let i = 0; i < listLength; i++) {
+          list[i] = prompt(
+            "Enter a number to fill the list (" +
+              parseInt(i + 1) +
+              "/" +
+              parseInt(listLength) +
+              "):"
+          );
+        }
+        multiplicationOfListNumbersExcludingZero = 1;
+        for (let j = 0; j < list.length; j++) {
+          if (list[j] != 0) multiplicationOfListNumbersExcludingZero *= list[j];
+        }
+        alert(multiplicationOfListNumbersExcludingZero);
+      }
+
+      function exercise5() {
+        while (true) {
+          let cars = [
+            {
+              name: "Mercedes S-class",
+              year: "2015",
+              engineVolumeInLiters: 2.4,
+              priceInKZT: 12000000,
+            },
+            {
+              name: "Mercedes E-class",
+              year: "2012",
+              engineVolumeInLiters: 2.0,
+              priceInKZT: 8000000,
+            },
+            {
+              name: "Mercedes SLR",
+              year: "2018",
+              engineVolumeInLiters: 3.0,
+              priceInKZT: 20000000,
+            },
+            {
+              name: "BMW 740i",
+              year: "2019",
+              engineVolumeInLiters: 4.0,
+              priceInKZT: 15000000,
+            },
+            {
+              name: "BMW 530",
+              year: "2010",
+              engineVolumeInLiters: 3.0,
+              priceInKZT: 12000000,
+            },
+            {
+              name: "Lexus LS500",
+              year: "2018",
+              engineVolumeInLiters: 3.5,
+              priceInKZT: 17000000,
+            },
+            {
+              name: "Lexus IS300",
+              year: "2022",
+              engineVolumeInLiters: 3.0,
+              priceInKZT: 14000000,
+            },
+            {
+              name: "Toyota LC300",
+              year: "2022",
+              engineVolumeInLiters: 4.0,
+              priceInKZT: 18000000,
+            },
+          ];
+          let command = prompt(
+            "INSERT [1] TO SEARCH BY NAME\n" +
+              "INSERT [2] TO SEARCH BY YEAR\n" +
+              "INSERT [3] TO SEARCH BY ENGINE VOLUME\n" +
+              "INSERT [4] TO SEARCH BY PRICE\n" +
+              "INSERT [0] TO EXIT\n"
+          );
+          // let searchOutput = [];
+          // let idx = 0;
+          let searchOutputString = "";
+          if (command == 1) {
+            command = prompt("INSERT NAME OF CAR:");
+            for (let i = 0; i < cars.length; i++) {
+              if (cars[i].name.includes(command)) {
+                searchOutputString +=
+                  cars[i].name +
+                  " - " +
+                  cars[i].year +
+                  " - " +
+                  cars[i].engineVolumeInLiters +
+                  " liters - " +
+                  cars[i].priceInKZT +
+                  " KZT\n";
+              }
+            }
+            alert(searchOutputString);
+            searchOutputString = "";
+          } else if (command == 2) {
+            command = prompt("INSERT YEAR START FROM:");
+            let command2 = prompt("INSERT YEAR ENDS FROM:");
+            for (let i = 0; i < cars.length; i++) {
+              if (cars[i].year >= command && cars[i].year <= command2) {
+                searchOutputString +=
+                  cars[i].name +
+                  " - " +
+                  cars[i].year +
+                  " - " +
+                  cars[i].engineVolumeInLiters +
+                  " liters - " +
+                  cars[i].priceInKZT +
+                  " KZT\n";
+              }
+            }
+            alert(searchOutputString);
+            searchOutputString = "";
+          } else if (command == 3) {
+            command = prompt("INSERT ENGINE VOLUME START FROM:");
+            let command2 = prompt("INSERT ENGINE VOLUME ENDS FROM:");
+            for (let i = 0; i < cars.length; i++) {
+              if (
+                cars[i].engineVolumeInLiters >= command &&
+                cars[i].engineVolumeInLiters <= command2
+              ) {
+                searchOutputString +=
+                  cars[i].name +
+                  " - " +
+                  cars[i].year +
+                  " - " +
+                  cars[i].engineVolumeInLiters +
+                  " liters - " +
+                  cars[i].priceInKZT +
+                  " KZT\n";
+              }
+            }
+            alert(searchOutputString);
+            searchOutputString = "";
+          } else if (command == 4) {
+            command = prompt("INSERT PRICE START FROM:");
+            let command2 = prompt("INSERT PRICE ENDS FROM:");
+            for (let i = 0; i < cars.length; i++) {
+              if (
+                cars[i].priceInKZT >= command &&
+                cars[i].priceInKZT <= command2
+              ) {
+                searchOutputString +=
+                  cars[i].name +
+                  " - " +
+                  cars[i].year +
+                  " - " +
+                  cars[i].engineVolumeInLiters +
+                  " liters - " +
+                  cars[i].priceInKZT +
+                  " KZT\n";
+              }
+            }
+            alert(searchOutputString);
+            searchOutputString = "";
+          } else if (command == 0) break;
+        }
+      }
+
+      function exercise6() {
+        let studentList = [];
+        let newStudent = {};
+        let studentListToString = "";
+        let index = 0;
+        while (true) {
+          let command = prompt(
+            "PRESS 1 TO ADD STUDENT\n" +
+              "PRESS 2 TO LIST STUDENT\n\n" +
+              "PRESS 0 TO EXIT\n"
+          );
+          if (command == 1) {
+            let name = prompt("INSERT NAME:");
+            let surname = prompt("INSERT SURNAME:");
+            let gpa = prompt("INSERT GPA:");
+            newStudent.name = name;
+            newStudent.surname = surname;
+            newStudent.gpa = gpa;
+            studentList[index] = newStudent;
+            studentListToString +=
+              index +
+              1 +
+              ") " +
+              newStudent.name +
+              " " +
+              newStudent.surname +
+              ", GPA = " +
+              newStudent.gpa +
+              "\n";
+            index++;
+          } else if (command == 2) {
+            alert(studentListToString);
+          } else if (command == 0) break;
+        }
+      }
+
+      function chooseExercise() {
+        let exerciseList = [
+          exercise1,
+          exercise2,
+          exercise3,
+          exercise4,
+          exercise5,
+          exercise6,
+        ];
+
+        let exerciseNumber = prompt(
+          "Hello! \n\nPlease enter the exercise number from 1 to 6 that you would like to review. \n\n\t Press Cancel to end the program \n"
+        );
+        if (Boolean(exerciseNumber) == false) {
+          alert("Good bye!");
+        } else if (exerciseNumber < 1 || exerciseNumber > exerciseList.length) {
+          return alert("Sorry, please enter an exercise number from 1 to 6");
+        } else if (isNaN(exerciseNumber) == true) {
+          return alert(
+            "Sorry, please enter a number of the required exercise instead of " +
+              '"' +
+              exerciseNumber +
+              '"'
+          );
+        }
+        return exerciseList[exerciseNumber - 1]();
+      }
+    </script>
+  </body>
+</html>

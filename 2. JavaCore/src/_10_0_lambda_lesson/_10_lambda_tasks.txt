@@ -1,0 +1,34 @@
+
+1) Create Functional interface with 0 parameters and void return type
+   Interface Runnable
+   method void run()
+
+   Create 1 object for Runnable with anonymous class
+   Create 1 object with Lambda function
+   Call run() method for both
+
+
+2) Create Functional interface with 1 parameter and void return type
+   Interface Consumer
+   method void accept(int x)
+
+   Create 1 object for Consumer with anonymous class
+   Create 1 object with Lambda function
+   Call accept(int x) method for both
+
+3) Create Functional interface Supplier with 0 parameter and int return type
+   Interface Supplier
+   method int get()
+
+   Create 1 object for Supplier with anonymous class
+   Create 1 object with Lambda function
+   Call get() method for both and return something
+
+4) Create Functional interface Function with 1 parameter and int return type
+   Interface Consumer
+   method int apply(int x)
+
+   Create 1 object for Function with anonymous class
+   Create 1 object with Lambda function
+   Call apply() method for both and return something
+

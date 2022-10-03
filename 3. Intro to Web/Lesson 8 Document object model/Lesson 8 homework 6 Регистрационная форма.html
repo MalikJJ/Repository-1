@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Регистрационная форма</title>
+    <style type="text/css">
+      .container {
+        width: 300px;
+        margin: 3% auto;
+        background-color: lavender;
+        border-radius: 10px;
+        padding: 3% 5%;
+      }
+      .error {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div>Email:</div>
+      <div><input oninput="checkEMail()" id="eMailInput" type="text" /></div>
+      <div class="error" id="eMailError"></div>
+      <div>Password:</div>
+      <div>
+        <input oninput="checkLength()" id="passwordInput" type="password" />
+      </div>
+      <div class="error" id="shortPasswordError"></div>
+      <div>Retype Password:</div>
+      <div>
+        <input
+          oninput="checkMatch()"
+          id="retypePasswordInput"
+          type="password"
+        />
+      </div>
+      <div class="error" id="passwordMismatchError"></div>
+      <div><button onclick="register()">REGISTER</button></div>
+    </div>
+
+    <div class="container" id="container2"></div>
+
+    <script type="text/javascript">
+      let usersEMailList = [
+        "ilyas@bitlab.kz",
+        "aibek@bitlab.kz",
+        "bitlab@bitlab.kz",
+        "admin@bitlab.kz",
+        "user@bitlab.kz",
+      ];
+      let busy = document.createElement("p");
+      busy.innerHTML = "<i>Busy eMail addresses:<i>";
+      container2.append(busy);
+
+      for (mail of usersEMailList) {
+        let newP = document.createElement("p");
+        newP.append(mail);
+        container2.append(newP);
+      }
+      function checkEMail() {
+        isNotFreeEMail = false;
+        for (let email of usersEMailList) {
+          if (eMailInput.value == email) {
+            isNotFreeEMail = true;
+          }
+        }
+        if (isNotFreeEMail)
+          eMailError.innerText = "current eMail is already in use";
+        else eMailError.innerText = "";
+      }
+      function checkLength() {
+        if (passwordInput.value.length < 6 && passwordInput.value.length != 0)
+          shortPasswordError.innerText =
+            "Password length at least must be 6 symbols";
+        else shortPasswordError.innerText = "";
+      }
+      function checkMatch() {
+        if (
+          retypePasswordInput.value != passwordInput.value &&
+          retypePasswordInput.value.length != 0
+        )
+          passwordMismatchError.innerText = "Passwords are not same";
+        else passwordMismatchError.innerText = "";
+      }
+
+      function register() {
+      }
+    </script>
+  </body>
+</html>
