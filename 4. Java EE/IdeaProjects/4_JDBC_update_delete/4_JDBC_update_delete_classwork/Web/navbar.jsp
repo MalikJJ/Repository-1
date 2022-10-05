@@ -1,4 +1,5 @@
-<nav class="navbar my-3 navbar-expand-lg navbar-dark" style="background-color: rgba(49,31,122,0.73)">
+<nav class="navbar my-3 navbar-expand-lg navbar-dark"
+     style="border-radius: 10px; background-color: steelblue">
     <div class="container-fluid">
         <a class="navbar-brand" href="/">FILMS.NET</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

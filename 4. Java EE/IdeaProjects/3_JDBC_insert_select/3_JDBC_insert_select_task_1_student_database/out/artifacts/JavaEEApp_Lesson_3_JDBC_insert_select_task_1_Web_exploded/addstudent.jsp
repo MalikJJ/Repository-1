@@ -47,8 +47,9 @@
                                     <option>Barcelona</option>
                                     <option>Ekibastuz</option>
                                     <option>Kokshetau</option>
-                                    <option>Shymkent</option>
                                     <option>Semey</option>
+                                    <option>Shieli</option>
+                                    <option>Shymkent</option>
                                     <option>Taraz</option>
                                     <option>Turkestan</option>
                                 </select>
@@ -57,7 +58,6 @@
                         <div class="row mt-4">
                             <div class="col">
                                 <div class="d-flex">
-<%--                                    <a href="/" class="btn btn-secondary ms-auto me-3">back</a>--%>
                                     <button class="btn btn-success ms-auto">Add student</button>
                                 </div>
                             </div>
@@ -66,7 +66,6 @@
                             <div class="col">
                                 <div class="d-flex">
                                     <a href="/" class="btn btn-secondary ms-auto">Back</a>
-<%--                                    <button class="btn btn-success">Add student</button>--%>
                                 </div>
                             </div>
                         </div>

@@ -13,7 +13,7 @@
                 Students student = (Students) request.getAttribute("student");
                 if (student != null) {
             %>
-            <form class="form-control mt-3">
+            <div class="card">
                 <div class="row mt-3 ms-3">
                     <div class="col-4">
                         <label>NAME:</label>
@@ -190,7 +190,7 @@
                         </form>
                     </div>
                 </div>
-            </form>
+            </div>
             <%
                 }
             %>

@@ -66,4 +66,32 @@ public class DBManager {
             e.printStackTrace();
         }
     }
+
+    public static Students getStudent(int id) {
+        Students student = null;
+
+        try {
+            PreparedStatement statement = connection.prepareStatement("" +
+                    "SELECT * FROM t_students WHERE id = ?");
+            statement.setInt(1, id);
+
+            ResultSet resultSet = statement.executeQuery();
+
+            if (resultSet.next()) {
+                student = new Students();
+                student.setId(resultSet.getInt("id"));
+                student.setName(resultSet.getString("name"));
+                student.setSurname(resultSet.getString("surname"));
+                student.setBirthDate(resultSet.getString("birthdate"));
+                student.setCity(resultSet.getString("city"));
+            }
+
+            statement.close();
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        return student;
+    }
 }

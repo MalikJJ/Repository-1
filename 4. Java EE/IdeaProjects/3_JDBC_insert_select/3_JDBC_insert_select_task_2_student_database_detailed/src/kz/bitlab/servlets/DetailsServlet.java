@@ -1,5 +1,8 @@
 package kz.bitlab.servlets;
 
+import kz.bitlab.db.DBManager;
+import kz.bitlab.db.Students;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -19,6 +22,10 @@ public class DetailsServlet extends HttpServlet {
 
         int id =Integer.parseInt(request.getParameter("id"));
 
-        request.getRequestDispatcher("details.jsp").forward(request, response);
+        Students student = DBManager.getStudent(id);
+
+        request.setAttribute("student", student);
+
+        request.getRequestDispatcher("/details.jsp").forward(request, response);
     }
 }

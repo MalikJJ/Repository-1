@@ -22,10 +22,6 @@ public class HomeServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-        response.setContentType("text/html");
-        PrintWriter out = response.getWriter();
-
-        out.print("<h1>Task 1 of lesson 3 JDBC started</h1>");
 
         ArrayList<Students> listOfStudents = DBManager.getStudents();
         request.setAttribute("listOfStudents", listOfStudents);

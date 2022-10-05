@@ -18,6 +18,7 @@
                             <th scope="col">SURNAME</th>
                             <th scope="col">BIRTHDATE</th>
                             <th scope="col">CITY</th>
+                            <th scope="col">DETAILS</th>
                         </tr>
                         </thead>
                         <tbody class="table-group-divider">
@@ -36,6 +37,8 @@
                             <td><%=student.getSurname()%></td>
                             <td><%=student.getBirthDate()%></td>
                             <td><%=student.getCity()%></td>
+                            <td><a class="btn btn-secondary btn-sm"
+                                   href="/details?id=<%=student.getId()%>">Details</a></td>
                         </tr>
                     <%
                             }

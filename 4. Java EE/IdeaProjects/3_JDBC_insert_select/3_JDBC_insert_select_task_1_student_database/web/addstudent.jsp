@@ -47,8 +47,9 @@
                                     <option>Barcelona</option>
                                     <option>Ekibastuz</option>
                                     <option>Kokshetau</option>
-                                    <option>Shymkent</option>
                                     <option>Semey</option>
+                                    <option>Shieli</option>
+                                    <option>Shymkent</option>
                                     <option>Taraz</option>
                                     <option>Turkestan</option>
                                 </select>
