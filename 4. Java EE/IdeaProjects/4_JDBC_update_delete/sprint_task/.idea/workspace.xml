@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="sprint_task:Web exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4aadd310-341d-4d08-9796-36355e6f4928" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../2_JavaServer_Pages/2_task_2_version_4/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3_JDBC_insert_select/3_JDBC_insert_select_task_2_student_database_detailed/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3_JDBC_insert_select/3_JDBC_insert_select_task_2_student_database_detailed/.idea/artifacts/JavaEEApp_Lesson_3_JDBC_insert_select_task_1_Web_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3_JDBC_insert_select/3_JDBC_insert_select_task_2_student_database_detailed/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3_JDBC_insert_select/3_JDBC_insert_select_task_2_student_database_detailed/.idea/libraries/javax_servlet_api_4_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3_JDBC_insert_select/3_JDBC_insert_select_task_2_student_database_detailed/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3_JDBC_insert_select/3_JDBC_insert_select_task_2_student_database_detailed/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3_JDBC_insert_select/3_JDBC_insert_select_task_2_student_database_detailed/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3_JDBC_insert_select/3_JDBC_insert_select_task_2_student_database_detailed/JavaEEApp_Lesson_3_JDBC_insert_select_task_1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3_JDBC_insert_select/3_JDBC_insert_select_task_2_student_database_detailed/out/artifacts/JavaEEApp_Lesson_3_JDBC_insert_select_task_1_Web_exploded/WEB-INF/classes/kz/bitlab/db/DBManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3_JDBC_insert_select/3_JDBC_insert_select_task_2_student_database_detailed/out/artifacts/JavaEEApp_Lesson_3_JDBC_insert_select_task_1_Web_exploded/WEB-INF/classes/kz/bitlab/db/Students.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3_JDBC_insert_select/3_JDBC_insert_select_task_2_student_database_detailed/out/artifacts/JavaEEApp_Lesson_3_JDBC_insert_select_task_1_Web_exploded/WEB-INF/classes/kz/bitlab/servlets/AddStudentServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3_JDBC_insert_select/3_JDBC_insert_select_task_2_student_database_detailed/out/artifacts/JavaEEApp_Lesson_3_JDBC_insert_select_task_1_Web_exploded/WEB-INF/classes/kz/bitlab/servlets/HomeServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3_JDBC_insert_select/3_JDBC_insert_select_task_2_student_database_detailed/out/artifacts/JavaEEApp_Lesson_3_JDBC_insert_select_task_1_Web_exploded/WEB-INF/lib/javax.servlet-api-4.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3_JDBC_insert_select/3_JDBC_insert_select_task_2_student_database_detailed/out/artifacts/JavaEEApp_Lesson_3_JDBC_insert_select_task_1_Web_exploded/WEB-INF/lib/javax.servlet.jsp-api-2.3.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3_JDBC_insert_select/3_JDBC_insert_select_task_2_student_database_detailed/out/artifacts/JavaEEApp_Lesson_3_JDBC_insert_select_task_1_Web_exploded/WEB-INF/lib/postgresql-42.5.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3_JDBC_insert_select/3_JDBC_insert_select_task_2_student_database_detailed/out/artifacts/JavaEEApp_Lesson_3_JDBC_insert_select_task_1_Web_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3_JDBC_insert_select/3_JDBC_insert_select_task_2_student_database_detailed/out/artifacts/JavaEEApp_Lesson_3_JDBC_insert_select_task_1_Web_exploded/addstudent.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3_JDBC_insert_select/3_JDBC_insert_select_task_2_student_database_detailed/out/artifacts/JavaEEApp_Lesson_3_JDBC_insert_select_task_1_Web_exploded/head.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3_JDBC_insert_select/3_JDBC_insert_select_task_2_student_database_detailed/out/artifacts/JavaEEApp_Lesson_3_JDBC_insert_select_task_1_Web_exploded/indexpage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3_JDBC_insert_select/3_JDBC_insert_select_task_2_student_database_detailed/out/artifacts/JavaEEApp_Lesson_3_JDBC_insert_select_task_1_Web_exploded/navbar.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3_JDBC_insert_select/3_JDBC_insert_select_task_2_student_database_detailed/out/production/JavaEEApp_Lesson_3_JDBC_insert_select_task_1/kz/bitlab/db/DBManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3_JDBC_insert_select/3_JDBC_insert_select_task_2_student_database_detailed/out/production/JavaEEApp_Lesson_3_JDBC_insert_select_task_1/kz/bitlab/db/Students.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3_JDBC_insert_select/3_JDBC_insert_select_task_2_student_database_detailed/out/production/JavaEEApp_Lesson_3_JDBC_insert_select_task_1/kz/bitlab/servlets/AddStudentServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3_JDBC_insert_select/3_JDBC_insert_select_task_2_student_database_detailed/out/production/JavaEEApp_Lesson_3_JDBC_insert_select_task_1/kz/bitlab/servlets/HomeServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3_JDBC_insert_select/3_JDBC_insert_select_task_2_student_database_detailed/src/kz/bitlab/db/DBManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3_JDBC_insert_select/3_JDBC_insert_select_task_2_student_database_detailed/src/kz/bitlab/db/Students.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3_JDBC_insert_select/3_JDBC_insert_select_task_2_student_database_detailed/src/kz/bitlab/servlets/AddStudentServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3_JDBC_insert_select/3_JDBC_insert_select_task_2_student_database_detailed/src/kz/bitlab/servlets/DetailsServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3_JDBC_insert_select/3_JDBC_insert_select_task_2_student_database_detailed/src/kz/bitlab/servlets/HomeServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3_JDBC_insert_select/3_JDBC_insert_select_task_2_student_database_detailed/web/WEB-INF/lib/javax.servlet-api-4.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3_JDBC_insert_select/3_JDBC_insert_select_task_2_student_database_detailed/web/WEB-INF/lib/javax.servlet.jsp-api-2.3.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3_JDBC_insert_select/3_JDBC_insert_select_task_2_student_database_detailed/web/WEB-INF/lib/postgresql-42.5.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3_JDBC_insert_select/3_JDBC_insert_select_task_2_student_database_detailed/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3_JDBC_insert_select/3_JDBC_insert_select_task_2_student_database_detailed/web/addstudent.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3_JDBC_insert_select/3_JDBC_insert_select_task_2_student_database_detailed/web/details.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3_JDBC_insert_select/3_JDBC_insert_select_task_2_student_database_detailed/web/head.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3_JDBC_insert_select/3_JDBC_insert_select_task_2_student_database_detailed/web/indexpage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3_JDBC_insert_select/3_JDBC_insert_select_task_2_student_database_detailed/web/navbar.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_classwork/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_classwork/.idea/artifacts/JavaEEApp_Web_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_classwork/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_classwork/.idea/libraries/javax_servlet_api_4_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_classwork/.idea/libraries/postgresql_42_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_classwork/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_classwork/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_classwork/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_classwork/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_classwork/JavaEEApp.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_classwork/JavaEEApp_Lesson_2_JavaServer_Pages_classwork.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_classwork/Web/WEB-INF/lib/javax.servlet-api-4.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_classwork/Web/WEB-INF/lib/javax.servlet.jsp-api-2.3.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_classwork/Web/WEB-INF/lib/postgresql-42.5.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_classwork/Web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_classwork/Web/addfilm.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_classwork/Web/details.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_classwork/Web/footer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_classwork/Web/head.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_classwork/Web/indexpage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_classwork/Web/navbar.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_classwork/out/artifacts/JavaEEApp_Web_exploded/WEB-INF/classes/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_classwork/out/artifacts/JavaEEApp_Web_exploded/WEB-INF/classes/kz/bitlab/db/DBManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_classwork/out/artifacts/JavaEEApp_Web_exploded/WEB-INF/classes/kz/bitlab/db/Film.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_classwork/out/artifacts/JavaEEApp_Web_exploded/WEB-INF/classes/kz/bitlab/servlets/AddFilmServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_classwork/out/artifacts/JavaEEApp_Web_exploded/WEB-INF/classes/kz/bitlab/servlets/DeleteFilmServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_classwork/out/artifacts/JavaEEApp_Web_exploded/WEB-INF/classes/kz/bitlab/servlets/DetailsServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_classwork/out/artifacts/JavaEEApp_Web_exploded/WEB-INF/classes/kz/bitlab/servlets/HomeServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_classwork/out/artifacts/JavaEEApp_Web_exploded/WEB-INF/classes/kz/bitlab/servlets/SaveFilmServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_classwork/out/artifacts/JavaEEApp_Web_exploded/WEB-INF/lib/javax.servlet-api-4.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_classwork/out/artifacts/JavaEEApp_Web_exploded/WEB-INF/lib/javax.servlet.jsp-api-2.3.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_classwork/out/artifacts/JavaEEApp_Web_exploded/WEB-INF/lib/postgresql-42.5.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_classwork/out/artifacts/JavaEEApp_Web_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_classwork/out/artifacts/JavaEEApp_Web_exploded/addfilm.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_classwork/out/artifacts/JavaEEApp_Web_exploded/details.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_classwork/out/artifacts/JavaEEApp_Web_exploded/footer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_classwork/out/artifacts/JavaEEApp_Web_exploded/head.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_classwork/out/artifacts/JavaEEApp_Web_exploded/indexpage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_classwork/out/artifacts/JavaEEApp_Web_exploded/navbar.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_classwork/out/production/JavaEEApp/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_classwork/out/production/JavaEEApp/kz/bitlab/db/DBManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_classwork/out/production/JavaEEApp/kz/bitlab/db/Film.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_classwork/out/production/JavaEEApp/kz/bitlab/servlets/AddFilmServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_classwork/out/production/JavaEEApp/kz/bitlab/servlets/DeleteFilmServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_classwork/out/production/JavaEEApp/kz/bitlab/servlets/DetailsServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_classwork/out/production/JavaEEApp/kz/bitlab/servlets/HomeServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_classwork/out/production/JavaEEApp/kz/bitlab/servlets/SaveFilmServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_classwork/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_classwork/src/kz/bitlab/db/DBManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_classwork/src/kz/bitlab/db/Film.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_classwork/src/kz/bitlab/servlets/AddFilmServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_classwork/src/kz/bitlab/servlets/DeleteFilmServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_classwork/src/kz/bitlab/servlets/DetailsServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_classwork/src/kz/bitlab/servlets/HomeServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_classwork/src/kz/bitlab/servlets/SaveFilmServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_task_1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_task_1/.idea/artifacts/JavaEEApp_Lesson_3_JDBC_insert_select_task_1_Web_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_task_1/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_task_1/.idea/libraries/javax_servlet_api_4_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_task_1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_task_1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_task_1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_task_1/JavaEEApp_Lesson_3_JDBC_insert_select_task_1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_task_1/out/artifacts/JavaEEApp_Lesson_3_JDBC_insert_select_task_1_Web_exploded/WEB-INF/classes/kz/bitlab/db/DBManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_task_1/out/artifacts/JavaEEApp_Lesson_3_JDBC_insert_select_task_1_Web_exploded/WEB-INF/classes/kz/bitlab/db/Students.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_task_1/out/artifacts/JavaEEApp_Lesson_3_JDBC_insert_select_task_1_Web_exploded/WEB-INF/classes/kz/bitlab/servlets/AddStudentServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_task_1/out/artifacts/JavaEEApp_Lesson_3_JDBC_insert_select_task_1_Web_exploded/WEB-INF/classes/kz/bitlab/servlets/DeleteStudentServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_task_1/out/artifacts/JavaEEApp_Lesson_3_JDBC_insert_select_task_1_Web_exploded/WEB-INF/classes/kz/bitlab/servlets/DetailsServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_task_1/out/artifacts/JavaEEApp_Lesson_3_JDBC_insert_select_task_1_Web_exploded/WEB-INF/classes/kz/bitlab/servlets/HomeServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_task_1/out/artifacts/JavaEEApp_Lesson_3_JDBC_insert_select_task_1_Web_exploded/WEB-INF/classes/kz/bitlab/servlets/SaveStudentServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_task_1/out/artifacts/JavaEEApp_Lesson_3_JDBC_insert_select_task_1_Web_exploded/WEB-INF/lib/javax.servlet-api-4.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_task_1/out/artifacts/JavaEEApp_Lesson_3_JDBC_insert_select_task_1_Web_exploded/WEB-INF/lib/javax.servlet.jsp-api-2.3.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_task_1/out/artifacts/JavaEEApp_Lesson_3_JDBC_insert_select_task_1_Web_exploded/WEB-INF/lib/postgresql-42.5.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_task_1/out/artifacts/JavaEEApp_Lesson_3_JDBC_insert_select_task_1_Web_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_task_1/out/artifacts/JavaEEApp_Lesson_3_JDBC_insert_select_task_1_Web_exploded/addstudent.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_task_1/out/artifacts/JavaEEApp_Lesson_3_JDBC_insert_select_task_1_Web_exploded/details.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_task_1/out/artifacts/JavaEEApp_Lesson_3_JDBC_insert_select_task_1_Web_exploded/head.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_task_1/out/artifacts/JavaEEApp_Lesson_3_JDBC_insert_select_task_1_Web_exploded/indexpage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_task_1/out/artifacts/JavaEEApp_Lesson_3_JDBC_insert_select_task_1_Web_exploded/navbar.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_task_1/out/production/JavaEEApp_Lesson_3_JDBC_insert_select_task_1/kz/bitlab/db/DBManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_task_1/out/production/JavaEEApp_Lesson_3_JDBC_insert_select_task_1/kz/bitlab/db/Students.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_task_1/out/production/JavaEEApp_Lesson_3_JDBC_insert_select_task_1/kz/bitlab/servlets/AddStudentServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_task_1/out/production/JavaEEApp_Lesson_3_JDBC_insert_select_task_1/kz/bitlab/servlets/DeleteStudentServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_task_1/out/production/JavaEEApp_Lesson_3_JDBC_insert_select_task_1/kz/bitlab/servlets/DetailsServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_task_1/out/production/JavaEEApp_Lesson_3_JDBC_insert_select_task_1/kz/bitlab/servlets/HomeServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_task_1/out/production/JavaEEApp_Lesson_3_JDBC_insert_select_task_1/kz/bitlab/servlets/SaveStudentServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_task_1/src/kz/bitlab/db/DBManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_task_1/src/kz/bitlab/db/Students.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_task_1/src/kz/bitlab/servlets/AddStudentServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_task_1/src/kz/bitlab/servlets/DeleteStudentServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_task_1/src/kz/bitlab/servlets/DetailsServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_task_1/src/kz/bitlab/servlets/HomeServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_task_1/src/kz/bitlab/servlets/SaveStudentServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_task_1/web/WEB-INF/lib/javax.servlet-api-4.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_task_1/web/WEB-INF/lib/javax.servlet.jsp-api-2.3.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_task_1/web/WEB-INF/lib/postgresql-42.5.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_task_1/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_task_1/web/addstudent.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_task_1/web/details.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_task_1/web/head.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_task_1/web/indexpage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_JDBC_update_delete_task_1/web/navbar.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/sprint_task_Web_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/933867d4-e7bb-41ec-9986-2acb1b7cd385.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/933867d4-e7bb-41ec-9986-2acb1b7cd385/storage_v2/_src_/database/bootcamp_db_2ee.XU4JRg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/933867d4-e7bb-41ec-9986-2acb1b7cd385/storage_v2/_src_/database/bootcamp_db_2ee.XU4JRg/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/933867d4-e7bb-41ec-9986-2acb1b7cd385/storage_v2/_src_/database/bootcamp_db_2ee.XU4JRg/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/933867d4-e7bb-41ec-9986-2acb1b7cd385/storage_v2/_src_/database/bootcamp_db_2ee.XU4JRg/schema/public.abK9xQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/javax_servlet_api_4_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/sprint_task_Web_exploded/WEB-INF/classes/kz/bitlab/Servlet/HomeServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/sprint_task_Web_exploded/WEB-INF/classes/kz/bitlab/db/DBManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/sprint_task_Web_exploded/WEB-INF/classes/kz/bitlab/db/Items.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/sprint_task_Web_exploded/WEB-INF/classes/kz/bitlab/db/Users.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/sprint_task_Web_exploded/WEB-INF/lib/javax.servlet-api-4.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/sprint_task_Web_exploded/WEB-INF/lib/javax.servlet.jsp-api-2.3.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/sprint_task_Web_exploded/WEB-INF/lib/postgresql-42.5.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/sprint_task_Web_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/sprint_task_Web_exploded/head.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/sprint_task_Web_exploded/indexpage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/sprint_task_Web_exploded/navbar.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/sprint_task/kz/bitlab/Servlet/HomeServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/sprint_task/kz/bitlab/db/DBManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/sprint_task/kz/bitlab/db/Items.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/sprint_task/kz/bitlab/db/Users.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sprint_task.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kz/bitlab/Servlet/HomeServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kz/bitlab/Servlet/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kz/bitlab/db/DBManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kz/bitlab/db/Items.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kz/bitlab/db/Users.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/javax.servlet-api-4.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/javax.servlet.jsp-api-2.3.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/postgresql-42.5.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/head.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/indexpage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/navbar.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3_JDBC_insert_select/3_JDBC_insert_select_task_1_student_database/out/artifacts/JavaEEApp_Lesson_3_JDBC_insert_select_task_1_Web_exploded/addstudent.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../3_JDBC_insert_select/3_JDBC_insert_select_task_1_student_database/out/artifacts/JavaEEApp_Lesson_3_JDBC_insert_select_task_1_Web_exploded/addstudent.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3_JDBC_insert_select/3_JDBC_insert_select_task_1_student_database/web/addstudent.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../3_JDBC_insert_select/3_JDBC_insert_select_task_1_student_database/web/addstudent.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lecturecodes/bootcamp2ee/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lecturecodes/bootcamp2ee/.idea/artifacts/bootcamp2ee_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lecturecodes/bootcamp2ee/.idea/libraries/javax_servlet_jsp_api_2_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lecturecodes/bootcamp2ee/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lecturecodes/bootcamp2ee/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lecturecodes/bootcamp2ee/__MACOSX/._bootcamp2ee.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lecturecodes/bootcamp2ee/bootcamp2ee.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lecturecodes/bootcamp2ee/src/kz/bitlab/db/DBManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lecturecodes/bootcamp2ee/src/kz/bitlab/db/Film.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lecturecodes/bootcamp2ee/src/kz/bitlab/servlets/AddFilmServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lecturecodes/bootcamp2ee/src/kz/bitlab/servlets/HomeServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lecturecodes/bootcamp2ee/web/WEB-INF/lib/javax.servlet-api-4.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lecturecodes/bootcamp2ee/web/WEB-INF/lib/javax.servlet.jsp-api-2.3.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lecturecodes/bootcamp2ee/web/WEB-INF/web.xml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2FfaOUhgcvpFl6vKe6FKhkVwqdF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/M/bitlab/4. Java EE/IdeaProjects/4_JDBC_update_delete/sprint_task",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "SQL Dialects"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\M\bitlab\4. Java EE\IdeaProjects\4_JDBC_update_delete\sprint_task\web\WEB-INF\lib" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.65" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.65" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="sprint_task:Web exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="9e917b48-6748-4050-869f-1df15de54cb7" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="56342" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="sprint_task:Web exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4aadd310-341d-4d08-9796-36355e6f4928" name="Changes" comment="" />
+      <created>1664885560132</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1664885560132</updated>
+      <workItem from="1664885561445" duration="13912000" />
+      <workItem from="1664972442723" duration="3029000" />
+      <workItem from="1664976504114" duration="2063000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

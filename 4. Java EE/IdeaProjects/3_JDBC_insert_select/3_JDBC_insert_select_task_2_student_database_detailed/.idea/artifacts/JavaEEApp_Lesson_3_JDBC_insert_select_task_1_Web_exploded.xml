@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="JavaEEApp_Lesson_3_JDBC_insert_select_task_1:Web exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/JavaEEApp_Lesson_3_JDBC_insert_select_task_1_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="JavaEEApp_Lesson_3_JDBC_insert_select_task_1/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="JavaEEApp_Lesson_3_JDBC_insert_select_task_1" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
